@@ -1,0 +1,30 @@
+.nav-top{
+    height: 45px;
+    background: coral;
+}
+.nav-top .nav-top-wrapper{
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-top-wrapper .left{
+    display: flex;
+}
+.nav-top-wrapper .left .location{
+   margin-left: 10px;
+}
+.nav-top-wrapper .left i{
+    color: #e51f28;
+}
+.nav-top-wrapper .right #language img{
+    width: 29px;
+    height: 19px;
+}
+
+ul{
+    display: none;
+}

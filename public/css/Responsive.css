@@ -1,0 +1,149 @@
+.header, .title-pro-home, .product-mobile, .btn-more, .title-box-news
+, .pet-service, .tel, #search, .footer {
+  display: none; }
+
+@media only screen and (max-width: 1024px) {
+  #top, #header, #nav-menu, .nav-bottom, .banner, .homepage,
+  .banner-home-hot, .product, .box-product-home, .service,
+  #footer, .title-top {
+    display: none; }
+
+  .header, .title-pro-home, .product-mobile, .btn-more, .title-box-news
+  .pet-service, .tel, #search, .footer {
+    display: block; }
+
+  .container {
+    width: auto; }
+
+  .product-list .product-list-wrap {
+    display: flex;
+    flex-wrap: wrap; }
+
+  .product-item {
+    width: 33.33%; }
+    .product-item .product-item-container {
+      padding: 0 2px;
+      border-right: 1px solid #eee;
+      border-top: 1px solid #eee;
+      border-bottom: 1px solid #eee; }
+    .product-item .box-image {
+      max-height: 120px; }
+    .product-item .title-product {
+      font-size: 14px;
+      padding: 0 5px; }
+    .product-item .add-cart {
+      padding: 2px 0; }
+      .product-item .add-cart a {
+        font-size: 14px; }
+
+  .home-news {
+    border: none !important;
+    border-radius: 0px !important; }
+
+  .article-home .img-hover {
+    height: 150px; }
+  .article-home a, .article-home p {
+    font-size: 14px; }
+  .article-home .owl-nav {
+    position: static; }
+    .article-home .owl-nav > button {
+      position: absolute;
+      top: 40%;
+      color: #ababab !important; }
+    .article-home .owl-nav .owl-prev {
+      left: 0; }
+    .article-home .owl-nav .owl-next {
+      right: 0; }
+
+  .has-nav {
+    border-top: 1px solid #ddd !important; }
+
+  .box-footer {
+    width: 100%; }
+
+  .p-content {
+    padding: 0 6px;
+    flex-direction: column; }
+    .p-content .p-content-left {
+      order: 2;
+      width: 100%; }
+    .p-content .p-content-right {
+      width: 100%;
+      order: 1; }
+      .p-content .p-content-right input {
+        width: 100%; }
+      .p-content .p-content-right .bg_pink {
+        padding: 7px;
+        width: auto; }
+
+  #wrap-content {
+    padding: 0 5px;
+    flex-direction: column; }
+
+  .news-content-left {
+    width: 100%; }
+    .news-content-left .h-title-box-news {
+      line-height: 35px;
+      margin-top: 15px;
+      padding: 0 10px;
+      border-left: 3px solid #8c2b8d;
+      border-bottom: none; }
+      .news-content-left .h-title-box-news .txt_pink {
+        color: #4c4c4c; }
+    .news-content-left .title-box-news {
+      font-size: 11px;
+      background: red;
+      display: inline-block;
+      border-radius: 10px 10px 0 0;
+      color: #fff;
+      padding: 5px 10px; }
+    .news-content-left #h-top-news {
+      height: auto;
+      flex-wrap: wrap; }
+      .news-content-left #h-top-news .bigImg {
+        width: 100%;
+        text-align: initial; }
+        .news-content-left #h-top-news .bigImg li {
+          position: static;
+          height: auto; }
+          .news-content-left #h-top-news .bigImg li span {
+            color: #555 !important;
+            font-weight: 600;
+            background: none;
+            position: static;
+            display: inline-block;
+            font-size: 15px; }
+            .news-content-left #h-top-news .bigImg li span .txt_12 {
+              font-size: 13px;
+              color: #888; }
+      .news-content-left #h-top-news .top-news {
+        display: none; }
+    .news-content-left .h-box-news .box-news {
+      width: 100%; }
+    .news-content-left .h-box-news .box-top {
+      flex-direction: column; }
+      .news-content-left .h-box-news .box-top img {
+        width: 100%; }
+
+  .news-content-right {
+    margin-top: 15px;
+    width: 100%; }
+    .news-content-right #fb-box {
+      display: flex;
+      justify-content: center; } }
+@media only screen and (max-width: 768px) {
+  .product-item {
+    width: 50%; } }
+@media only screen and (max-width: 480px) {
+  .article-home .img-hover {
+    height: 120px; } }
+.more-products {
+  color: #e51f28;
+  background: #fff;
+  border: #e51f28 solid 1px;
+  border-radius: 20px;
+  padding: 5px 30px;
+  margin: 0;
+  display: inline-block; }
+
+/*# sourceMappingURL=Responsive.css.map */
