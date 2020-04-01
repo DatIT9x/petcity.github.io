@@ -199,13 +199,18 @@ $(document).ready(function(){
         }
     });
 
-    $('.owl-carousel').owlCarousel({
+    $('.list-news-top').owlCarousel({
         loop:true,
-        nav:false,
+        nav:true,
+        navText: [
+            '<i class="fas fa-chevron-left fa-2x"></i>',
+            '<i class="fas fa-chevron-right fa-2x"></i>'
+        ],
         dots:false,
         responsive:{
             0:{
-                items:1
+                items:2,
+                nav:false
             },
             600:{
                 items:1

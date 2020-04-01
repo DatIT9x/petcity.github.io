@@ -8,7 +8,7 @@
   #footer, .title-top {
     display: none; }
 
-  .header, .title-pro-home, .product-mobile, .btn-more, .title-box-news
+  .header, .title-pro-home, .product-mobile, .btn-more, .title-box-news,
   .pet-service, .tel, #search, .footer {
     display: block; }
 
@@ -31,10 +31,12 @@
     .product-item .title-product {
       font-size: 14px;
       padding: 0 5px; }
-    .product-item .add-cart {
-      padding: 2px 0; }
-      .product-item .add-cart a {
-        font-size: 14px; }
+
+  .collection .product-list.col-list .product-item {
+    width: 33.33%; }
+
+  .add-cart {
+    font-size: 13px; }
 
   .home-news {
     border: none !important;
@@ -121,6 +123,7 @@
     .news-content-left .h-box-news .box-news {
       width: 100%; }
     .news-content-left .h-box-news .box-top {
+      height: auto;
       flex-direction: column; }
       .news-content-left .h-box-news .box-top img {
         width: 100%; }
@@ -133,6 +136,9 @@
       justify-content: center; } }
 @media only screen and (max-width: 768px) {
   .product-item {
+    width: 50%; }
+
+  .collection .product-list.col-list .product-item {
     width: 50%; } }
 @media only screen and (max-width: 480px) {
   .article-home .img-hover {
